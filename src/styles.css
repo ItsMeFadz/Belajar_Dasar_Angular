@@ -1,0 +1,10 @@
+/* You can add global styles to this file, and also import other style files */
+.brand-name {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Menambahkan shadow */
+    padding: 10px;
+    /* Contoh tambahan */
+    background-color: #f8f9fa;
+    /* Contoh warna latar */
+    font-family: Arial, sans-serif;
+}

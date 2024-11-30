@@ -1,0 +1,126 @@
+/* Global Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff;
+    /* AliceBlue background */
+    color: #333;
+}
+
+/* Article Container */
+article {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+/* Listing Photo */
+.listing-photo {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+/* Heading Styling */
+.section-heading {
+    font-size: 1.5rem;
+    color: #1e90ff;
+    /* DodgerBlue */
+    margin-bottom: 10px;
+}
+
+.listing-heading {
+    font-size: 2rem;
+    color: #4682b4;
+    /* SteelBlue */
+    margin: 0 0 10px;
+}
+
+.listing-location {
+    font-size: 1.2rem;
+    color: #5f9ea0;
+    /* CadetBlue */
+    margin: 0 0 20px;
+}
+
+/* Features Section */
+.listing-features ul {
+    list-style: none;
+    padding: 0;
+}
+
+.listing-features li {
+    padding: 5px 0;
+    font-size: 1rem;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+/* Form Section */
+form {
+    margin-top: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1e90ff;
+    /* DodgerBlue */
+}
+
+form input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b0c4de;
+    /* LightSteelBlue */
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+form button {
+    display: inline-block;
+    background-color: #1e90ff;
+    /* DodgerBlue */
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #4682b4;
+    /* SteelBlue */
+}
+
+/* Responsive Styling */
+@media (max-width: 768px) {
+    article {
+        padding: 10px;
+    }
+
+    .listing-heading {
+        font-size: 1.5rem;
+    }
+
+    .section-heading {
+        font-size: 1.2rem;
+    }
+
+    form input {
+        font-size: 0.9rem;
+    }
+
+    form button {
+        font-size: 0.9rem;
+    }
+}

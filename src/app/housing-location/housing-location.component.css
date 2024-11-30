@@ -1,0 +1,63 @@
+.results {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* Membuat 4 kolom dengan lebar yang sama */
+    gap: 10px;
+    /* Jarak antar card */
+    justify-content: center;
+    /* Memusatkan grid jika ukurannya lebih kecil dari container */
+    padding: 10px;
+    /* Memberikan ruang di sekitar grid */
+}
+
+.listing {
+    width: 100%;
+    /* Lebar otomatis sesuai kolom */
+    border: 1px solid #ddd;
+    /* Opsional, untuk memberi batas */
+    border-radius: 10px;
+    /* Membuat tepi card rounded */
+    overflow: hidden;
+    /* Mencegah konten keluar dari batas rounded */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    /* Opsional, untuk efek bayangan */
+    display: flex;
+    flex-direction: column;
+    /* Mengatur konten vertikal di dalam card */
+    align-items: center;
+    /* Konten di dalam card sejajar di tengah */
+    text-align: center;
+    /* Menyelaraskan teks di tengah */
+}
+
+.listing-photo {
+    /* margin-top: 10px; */
+    width: 100%;
+    /* Gambar memenuhi lebar card */
+    height: 200px;
+    /* Tinggi tetap untuk menjaga proporsi */
+    object-fit: cover;
+    /* Memastikan gambar tidak terdistorsi */
+    border-radius: 10px;
+    /* Membuat gambar juga rounded */
+    display: block;
+    /* Mencegah margin default pada gambar */
+}
+
+.listing-heading,
+.listing-location {
+    margin: 0.5rem 0;
+    /* Memberi jarak atas dan bawah */
+}
+
+.listing-heading {
+    font-size: 1.2rem;
+    /* Sesuaikan ukuran teks heading */
+}
+
+.listing-location {
+    font-size: 0.9rem;
+    /* Menyesuaikan ukuran teks lokasi */
+    color: #555;
+    /* Warna teks untuk lokasi */
+}
